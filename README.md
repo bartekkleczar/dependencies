@@ -36,6 +36,9 @@ implementation("com.squareup.retrofit2:converter-gson:2.8.1")
 //ViewModel <br>
 implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
 
+//BottomSheets <br>
+implementation(platform("androidx.compose:compose-bom:2023.06.01"))
+
 //ksp <br>
 id("com.google.devtools.ksp") version "1.8.10-1.0.9"
 kotlin {
